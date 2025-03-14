@@ -1,179 +1,235 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Разработчик С++</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Андрей Никитин - C++ Разработчик</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --text-color: #333;
+            --light-bg: #f5f6fa;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
-					<h1 id="logo"><a href="#one">Никитин Андрей</a></h1>
-					<p>Разработчик С++</p>
-				</header>
-				<nav id="nav">
-					<ul>
-						<li><a href="#one" class="active">О себе</a></li>
-						<li><a href="#two">Навыки</a></li>
-						<li><a href="#three">Опыт программирования</a></li>
-						<li><a href="#four">Контакты</a></li>
-					</ul>
-				</nav>
-				<footer>
-					<ul class="icons">
-						<li><a href="https://github.com/StudCramon" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
-						<li><a href="mailto:nik1andr22@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				</footer>
-			</section>
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: var(--light-bg);
+        }
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+            border-bottom: 2px solid var(--accent-color);
+        }
 
-				<!-- Main -->
-					<div id="main">
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
 
-						<!-- One -->
-							<section id="one">
-								<div class="image main" data-position="center">
-									<img src="images/banner.jpg" alt="" />
-								</div>
-								<div class="container">
-									<header class="major">
-										<p>This page is also available in <a href="indexENG.html">English</a>.</p>
-										<h3>Немного о себе</h3>
-									</header>
-									<p>Я разработчик десктопных приложений, в основном использующий C++ в своей работе. Больше всего увлекаюсь разработкой графики и реализацией физики.</br>Всегда ответственно отношусь к работе. Осознаю ограничения в своих знаниях, поэтому всегда открыт к изучению новых материалов и получению новых навыков.</br>Заинтересован в решении нетривиальных задач путём программирования.</p>
-								</div>
-							</section>
+        h2 {
+            color: var(--secondary-color);
+            font-size: 1.8rem;
+            margin: 2rem 0 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #e1e1e1;
+        }
 
-						<!-- Two -->
-							<section id="two">
-								<div class="container">
-									<h3>Я умею...</h3>
-									<ul class="feature-icons">
-										<p>Применять такие ЯП как:</p>
-										<li class="icon solid fa-code">С++</li>
-										<li class="icon solid fa-code">GLSL</li>
-										<li class="icon solid fa-code">ST</li>
-										<li class="icon solid fa-code">PL/SQL</li>
-										<li class="icon solid fa-code">HTML/CSS/JavaScript</li>
-										<p>Использовать следующие библиотеки:</p>
-										<li class="icon solid fa-cubes">STL</li>
-										<li class="icon solid fa-cubes">OpenGL</li>
-										<li class="icon solid fa-cubes">OpenCV</li>
-										<li class="icon solid fa-cubes">Raylib</li>
-										<p>Работать с:</p>
-										<li class="icon solid fa-bolt">Microsoft Visual Studio</li>
-										<li class="icon solid fa-bolt">Unreal engine 4</li>
-										<li class="icon solid fa-bolt">QT Creator</li>
-										<p>Писать, читать, разговаривать на:</p>
-										<li class="icon solid fa-book">Русском языке</li>
-										<li class="icon solid fa-book">Английском языке(B2)</li>
-									</ul>
-								</div>
-							</section>
+        .subtitle {
+            color: var(--secondary-color);
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
 
-						<!-- Three -->
-							<section id="three">
-								<div class="container">
-									<h3>Опыт программирования</h3>
-									<p>Краткий обзор моего опыта использования языка C++</p>
-									<div class="features">
-										<article>
-											<a href="#three" class="image"><img src="images/Beginning.png" alt="" /></a>
-											<div class="inner">
-												<h4>Бакалавриат</h4>
-												<p>Во время учёбы в бакалавриате Московского Авиационного Института(2015-2019) началось моё изучение языка C++. На протяжении всего периода обучения он использовался в различных проектах и курсовых.</p>
-											</div>
-										</article>
-										<article>
-											<a href="images/Work.pdf" class="image" target="_blank"><img src="images/DiplomaProject.png" alt="" /></a>
-											<div class="inner">
-												<h4>Магистратура</h4>
-												<p>В магистратуре(2019-2021) мой дипломный проект под названием: "Принципы и программные решения для обработки и визуализации данных под управлением взгляда" фокусировался на разработке алгоритма по обнаружению взгляда при помощи компьютерного зрения.</br>Подробнее можно узнать <b><a href="images/Work.pdf" target="_blank">здесь</a></b>.</p>
-											</div>
-										</article>
-										<article>
-											<a href="UE4/ToonTanks.html" class="image" target="_blank"><img src="UE4/images/ToonTanks/Screen1.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Unreal Engine 4</h4>
-												<p>Окончив обучение, я заинтересовался разработкой игр, для чего приобрёл курсы сайта <a href = "https://www.gamedev.tv">GameDev.tv</a>. Во время прохождения курсов было написано несколько проектов:
-													<ul>
-														<li><b><a href="UE4/Escape.html" target="_blank">Escape</a></b></li>
-														<li><b><a href="UE4/ToonTanks.html" target="_blank">ToonTanks</a></b></li>
-														<li><b><a href="UE4/SimpleShooter.html" target="_blank">SimpleShooter</a></b></li>
-													</ul>
-												</p>
-											</div>
-										</article>
-										<article>
-											<a href="https://youtu.be/7zpMS5_3H6o?t=159" class="image" target="_blank"><img src="images/RaylibScreen.png" alt="" /></a>
-											<div class="inner">
-												<h4>Raylib</h4>
-												<p>Поработав в Unreal Engine 4 у меня возникло много вопросов касательно того, как всё работает "под капотом". Я нашёл простую библиотеку для работы с 2D графикой Raylib и начал изучать основы работы физики компьютерных игр.
-													<ul>
-														<li><b><a href="https://youtu.be/7zpMS5_3H6o" target="_blank">Демонстрация</a></b></li>
-														<li><b><a href="https://github.com/StudCramon/CodingMathCPP" target="_blank">Исходный код</a></b></li>
-													</ul>
-												</p>
-											</div>
-										</article>
-										<article>
-											<a href="https://www.youtube.com/watch?v=Qb9hgZTDGWM" class="image" target="_blank"><img src="images/OpenGLScreen.png" alt="" /></a>
-											<div class="inner">
-												<h4>OpenGL</h4>
-												<p>После написания немалого количества программ в 2D  при помощи Raylib, я принял решение начать работу уже с 3D и выбрал для этого библиотеку работы с графикой OpenGL, которую изучаю по сей день при помощи онлайн книги <a href = "https://learnopengl.com/">LearnOpenGL</a>.
-													<ul>
-														<li><b><a href="https://www.youtube.com/watch?v=Qb9hgZTDGWM" target="_blank">Демонстрация текущего прогресса</a></b></li>
-													</ul>
-												</p>
-											</div>
-										</article>
-									</div>
-								</div>
-							</section>
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
 
-						<!-- Four -->
-							<section id="four">
-								<div class="container">
-									<h3>Контакты</h3>
-									<article>
-										Почта: <a href="mailto:nik1andr22@gmail.com"> nik1andr22@gmail.com </a>
-									</article>
-									<article>
-										GitHub: <b><a href="https://github.com/StudCramon" target="_blank">StudCramon</a></b>
-									</article>
-								</div>
-							</section>
-						</br>
-						</br>
+        .contact-info a {
+            color: var(--accent-color);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
 
-					</div>
+        .contact-info a:hover {
+            color: var(--primary-color);
+        }
 
-				<!-- Footer -->
-					<section id="footer">
-						<div class="container">
-							<ul class="copyright">
-								<li>&copy; Все права защищены.</li>
-							</ul>
-						</div>
-					</section>
+        section {
+            margin-bottom: 2rem;
+        }
 
-			</div>
+        .skills-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            list-style: none;
+        }
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+        .experience-item {
+            margin-bottom: 1.5rem;
+        }
 
-	</body>
-</html>
+        .experience-title {
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .experience-company {
+            color: var(--accent-color);
+        }
+
+        .experience-date {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        ul {
+            list-style-position: inside;
+            margin-left: 1rem;
+        }
+
+        .project {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Никитин Андрей Александрович</h1>
+        <div class="subtitle">C++ Разработчик</div>
+        <div class="contact-info">
+            <a href="mailto:nik1andr22@gmail.com">📧 nik1andr22@gmail.com</a>
+            <a href="https://github.com/StudCramon" target="_blank">💻 GitHub</a>
+        </div>
+    </header>
+
+    <section>
+        <h2>🔍 Ключевые навыки</h2>
+        <div class="skills-list">
+            <div>
+                <strong>Языки программирования:</strong>
+                <p>C++ (STL, многопоточность), GLSL, ST (Structured Text), SQL/PL-SQL, HTML/CSS/JavaScript</p>
+            </div>
+            <div>
+                <strong>Библиотеки и фреймворки:</strong>
+                <p>OpenGL, OpenCV, Raylib, Unreal Engine 4, Qt</p>
+            </div>
+            <div>
+                <strong>Инструменты:</strong>
+                <p>Git (GitHub/GitLab), Visual Studio, TwinCat 3, Siemens TIA Portal, SCADA TraceMode 6</p>
+            </div>
+            <div>
+                <strong>Базы данных:</strong>
+                <p>SQL, PL/SQL</p>
+            </div>
+            <div>
+                <strong>ОС:</strong>
+                <p>Windows, Linux (Debian)</p>
+            </div>
+            <div>
+                <strong>Языки:</strong>
+                <p>Русский (родной), Английский (B2)</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>💼 Опыт работы</h2>
+        <div class="experience-item">
+            <div class="experience-title">Инженер-программист (C++)</div>
+            <div class="experience-company">ФАУ ЦАГИ им. Н.Е. Жуковского, Жуковский</div>
+            <div class="experience-date">Октябрь 2021 — настоящее время</div>
+            <ul>
+                <li>Разработка UI для визуализации данных нейросетей на C++ и Raylib</li>
+                <li>Миграция legacy-ПО на SCADA TraceMode 6</li>
+                <li>Программирование контроллеров Beckhoff (TwinCat 3, ST)</li>
+                <li>Создание ПО для мониторинга параметров резервуаров хранения</li>
+                <li>Устранение критических сбоев ПО</li>
+                <li>Проектирование систем контроля доступа</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="experience-title">Инженер (частичная занятость)</div>
+            <div class="experience-company">ФАУ ЦАГИ им. Н.Е. Жуковского, Жуковский</div>
+            <div class="experience-date">Октябрь 2019 — Сентябрь 2021</div>
+            <ul>
+                <li>Прототипирование журналирующего ПО для исследователей</li>
+                <li>Автоматизация задач с помощью C++</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>🎓 Образование</h2>
+        <div class="experience-item">
+            <div class="experience-title">Магистр компьютерных наук</div>
+            <div class="experience-company">Московский Авиационный Институт (МАИ)</div>
+            <div class="experience-date">2019–2021</div>
+            <p>Дипломный проект: «Обработка и визуализация данных под управлением взгляда»</p>
+        </div>
+
+        <div class="experience-item">
+            <div class="experience-title">Бакалавр компьютерных наук</div>
+            <div class="experience-company">Московский Авиационный Институт (МАИ)</div>
+            <div class="experience-date">2015–2019</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>🚀 Проекты</h2>
+        <div class="project">
+            <h3>Разработка игр (Unreal Engine 4)</h3>
+            <p>Escape, Toon Tanks, Simple Shooter:</p>
+            <p>Реализация игровой логики на C++, работа с анимацией и физикой.</p>
+            <p>Ссылки: <a href="UE4/Escape.html">Escape</a>, <a href="UE4/ToonTanks.html">Toon Tanks</a>, <a href="UE4/SimpleShooter.html">SimpleShooter</a></p>
+        </div>
+
+        <div class="project">
+            <h3>Coding Math (C++/Raylib)</h3>
+            <p>Курс по применению математики в программировании: 3D-трансформации, физика частиц.</p>
+            <p><a href="https://youtu.be/7zpMS5_3H6o">Демо</a>, <a href="https://github.com/StudCramon/CodingMathCPP">Исходный код</a></p>
+        </div>
+
+        <div class="project">
+            <h3>Алгоритмы и структуры данных (Go)</h3>
+            <p>Реализация алгоритмов сортировки, деревьев, графов.</p>
+            <p><a href="https://github.com/StudCramon/CodingMathCPP">Репозиторий</a></p>
+        </div>
+    </section>
+</body>
+</html> 
